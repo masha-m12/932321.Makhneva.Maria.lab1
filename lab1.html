@@ -3,10 +3,30 @@
     <head>
         <meta charset="UTF-8">
         <title>О себе</title>
+        <style>
+            body{
+                background-color: #edd7fa;
+                color: #320652;
+                margin: 0;
+                padding: 0;
+            }
+            header{
+                text-align: center;
+                padding: 5px 10px 5px;
+            }
+            img{
+                border-radius: 50%;
+                border: 2px solid #320652;
+            }
+            footer{
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
         <header>
             <h1>Искусство и креатив</h1>
+            <img src="profile picture.png" alt="Аватарка Махнёвой Марии" width="150" height="150"/>
             <h2>Махнёва Мария</h2>
         </header>
 
@@ -28,13 +48,13 @@
                     <li>Выставка "Портреты близких людей"</li>
                     <li>Работа "Любимый город"</li>
                 </ol>
-            </section>
+            </section>            
+        </main>
 
-            <aside>
+        <aside>
                 <h3>Любимое направления в искусстве</h3>
                 <p>Импрессионизм</p>
             </aside>
-        </main>
 
         <form>
             <p>
@@ -50,10 +70,11 @@
             <p>
                 <label>Сообщение:
                 <textarea name="comment" placeholder="Задайте мне вопрос." required></textarea>
+            </p>
 
             <p>
-                
-            <button type="submit">Отправить</button>
+                <button type="submit">Отправить</button>
+            </p>
         </form>
 
         <footer>
